@@ -1,0 +1,24 @@
+@import "tailwindcss";
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}   
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+html {
+  scroll-behavior: auto;
+}
+
