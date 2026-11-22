@@ -73,9 +73,6 @@ const BUSINESS = {
   aboutImage,
 };
 
-const phoneNumber = "+91 77189 787199";
-const phoneHref = `tel:${phoneNumber.replace(/[^\d+]/g, "")}`;
-
 // ======================================
 // HERO SLIDES
 // ======================================
@@ -87,7 +84,6 @@ const slides = [
     description:
       "Professional AC installation, servicing, gas refilling, leakage repair and maintenance for your home or office.",
     image: acInstallationImage,
-    link: {phoneHref},
   },
   {
     id: 2,
@@ -95,7 +91,6 @@ const slides = [
     description:
       "Professional washing machine repair for washing, spinning, drainage, noise and other common problems.",
     image: washingMachineHome,
-    link: {phoneHref},
   },
   {
     id: 3,
@@ -103,7 +98,6 @@ const slides = [
     description:
       "Reliable RO water purifier repair and maintenance for leakage, low water flow and filtration issues.",
     image: roRepairImage,
-    link: "#services",
   },
   {
     id: 4,
@@ -111,7 +105,6 @@ const slides = [
     description:
       "Microwave repair solutions for heating problems, power issues, display faults and operating problems.",
     image: microwaveRepairImage,
-    link: {phoneHref},
   },
   {
     id: 5,
@@ -119,7 +112,6 @@ const slides = [
     description:
       "Dishwasher repair services for cleaning, draining and common operating problems.",
     image: dishwasherRepairImage,
-    link: {phoneHref},
   },
   {
     id: 6,
@@ -127,7 +119,6 @@ const slides = [
     description:
       "Kitchen chimney repair, cleaning and maintenance services for your home.",
     image: chimneyRepairImage,
-    link: {phoneHref},
   },
 ];
 
@@ -445,7 +436,7 @@ export default function Home() {
                 <div className="mt-8 flex flex-wrap items-center gap-4">
 
                   <a
-                    href={activeSlide.link}
+                    href={phoneLink}
                     className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3.5 text-sm font-semibold text-[#103E4B] hover:bg-[#EAF4F6]"
                   >
                     Book Services
