@@ -41,11 +41,11 @@ const repairingServices = [
 ];
 
 const serviceAreas = [
-  "Baner", "Aundh", "Kothrud", "Wakad", "Hinjawadi", "Hadapsar",
-  "Kharadi", "Viman Nagar", "Kalyani Nagar", "Koregaon Park",
-  "Magarpatta", "Wagholi", "Kondhwa", "Katraj", "Undri",
-  "Bavdhan", "Balewadi", "Pashan", "Shivajinagar", "Swargate",
-  "Dhanori", "Pimpri", "Chinchwad", "Lohegaon", "Other Pune Location",
+  "Baner", "Aundh",  "Wakad", "Hinjawadi",
+  "Kharadi",
+  "Magarpatta", "Pimple Gurav", "Pimple Saudagar", "New Sangvi", "Old Sangvi", "Kasarwadi","Moshi", "Chikli","Bhosri",
+  "Bavdhan", "Balewadi", "Pashan", "Swargate",
+ "Pimpri", "Chinchwad", "Lohegaon", "Other Pune Location",
 ];
 
 // Requested marketing copy. Confirm 24/7 staffing, live tracking,
