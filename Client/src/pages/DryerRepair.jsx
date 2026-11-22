@@ -502,7 +502,7 @@ export default function DryerRepair() {
           <div className="grid items-start gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
             {/* LEFT: PROCESS */}
             <div className="relative">
-              {/* <div className="absolute bottom-10 left-6 top-7 w-px bg-[#B9DDE5]" aria-hidden="true" /> */}//comment out extra line
+              {/* <div className="absolute bottom-10 left-6 top-7 w-px bg-[#B9DDE5]" aria-hidden="true" /> */}
               <div className="space-y-8">
                 {processSteps.map((step) => (
                   <div key={step.number} className="dryer-step relative flex gap-5">
