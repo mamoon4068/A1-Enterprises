@@ -1,3 +1,4 @@
+import { ENQUIRY_API_URL } from "../enquiryApi";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -34,10 +35,6 @@ gsap.registerPlugin(ScrollTrigger);
 const BUSINESS_PHONE = "";
 
 const HERO_IMAGE = washingMachineImage;
-
-// Optional: set VITE_ENQUIRY_API_URL to your real POST endpoint.
-// Example: http://localhost:5000/api/enquiries
-const ENQUIRY_API_URL = import.meta.env.VITE_ENQUIRY_API_URL || "";
 
 const serviceOptions = [
   "Front Load Washing Machine Repair",

@@ -1,3 +1,4 @@
+import { ENQUIRY_API_URL } from "../enquiryApi";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -26,11 +27,6 @@ const CONTACT = {
   email: "",    // e.g. "your-business-email@example.com"
   address: "",  // A1 Enterprises' real office address
 };
-
-const API_BASE_URL = import.meta.env.VITE_API_URL?.trim().replace(/\/+$/, "");
-const ENQUIRY_API_URL =
-  import.meta.env.VITE_ENQUIRY_API_URL?.trim() ||
-  (API_BASE_URL ? `${API_BASE_URL}/api/enquiries` : "");
 
 const repairingServices = [
   "AC Repair & Installation",

@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/contact", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/servicesarea", "destination": "/index.html" },
+    { "source": "/services/:path*", "destination": "/index.html" }
+  ]
+}

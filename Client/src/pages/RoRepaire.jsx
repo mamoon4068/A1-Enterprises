@@ -1,3 +1,4 @@
+import { ENQUIRY_API_URL } from "../enquiryApi";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -37,10 +38,6 @@ const BUSINESS_PHONE = "";
 // Reuse the RO image already present in your A1 Enterprises project.
 // Change this import path if your actual filename is different.
 const HERO_IMAGE = roRepairImage;
-
-// Optional: set VITE_ENQUIRY_API_URL to your real POST endpoint.
-// Example: http://localhost:5000/api/enquiries
-const ENQUIRY_API_URL = import.meta.env.VITE_ENQUIRY_API_URL || "";
 
 const serviceOptions = [
   "RO Water Purifier Not Starting",
