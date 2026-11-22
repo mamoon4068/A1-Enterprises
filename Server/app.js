@@ -1,4 +1,4 @@
-﻿import "dotenv/config";
+import "dotenv/config";
 
 import express from "express";
 import cors from "cors";
@@ -47,24 +47,5 @@ app.get("/api/health", (req, res) => {
 
 app.use("/api/enquiries", enquiryRoutes);
 app.use("/api/services", serviceRoutes);
-
-app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    message: "API route not found",
-  });
-});
-
-app.use((err, req, res, next) => {
-  console.error("Server error:", err.message);
-
-  res.status(err.status || 500).json({
-    success: false,
-    message:
-      err.type === "entity.too.large"
-        ? "Request body is too large"
-        : "Internal server error",
-  });
-});
 
 export default app;
