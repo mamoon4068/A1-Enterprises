@@ -237,7 +237,7 @@ export default function Home() {
   const activeSlide = slides[current];
 
   const phoneLink = BUSINESS.phone
-    ? `tel:+${BUSINESS.phone}`
+    ? `tel:${BUSINESS.phone.replace(/[^\d+]/g, "")}`
     : "/contact";
 
   // ======================================
@@ -816,7 +816,7 @@ export default function Home() {
                   </p>
 
                   <a
-                    href="/contact"
+                    href={phoneLink}
                     className="mt-6 inline-flex w-fit items-center gap-2 text-sm font-semibold text-[#228BA3] hover:text-[#103E4B]"
                   >
                     Enquire Now
