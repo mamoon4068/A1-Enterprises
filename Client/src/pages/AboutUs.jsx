@@ -564,7 +564,7 @@ export default function AboutUs({ phone = "" }) {
   <img
     src={OurValuesLastPic}
     alt="A1 Enterprises service technician"
-    className="pointer-events-none relative z-10 mx-auto left-157 mt-30 h-65 max-w-full object-contain object-bottom md:absolute md:bottom-0 md:right-0 md:mt-0 md:h-105 md:w-[51%] lg:right-3"
+    className="pointer-events-none relative z-10 mx-auto md:left-157 mt-30 h-65 max-w-full object-contain object-bottom md:absolute md:bottom-0 md:right-0 md:mt-0 md:h-105 md:w-[51%] lg:right-3"
     onError={(e) => {
       e.currentTarget.style.display = "none";
     }}
