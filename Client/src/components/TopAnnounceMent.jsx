@@ -18,21 +18,20 @@ const TopAnnouncement = () => {
     return () => animation.kill();
   }, []);
 
-  const services = [
-    "AC Installation",
-    "Washing Machine Repairing",
-    "Home Appliance Repair",
-    "Expert Technicians",
-    "10,000+ Happy Customers",
-    "Same Day Service",
-    "Affordable Pricing",
-    "Guaranteed Quality",
-    "24/7 Support",
-    "Genious Day Service",
-    "Transparent Pricing",
-    "customer Satisfaction",
-    
-  ];
+ const services = [
+  "AC Installation",
+  "Washing Machine Repair",
+  "Home Appliance Repair",
+  "Expert Technicians",
+  "10,000+ Happy Customers",
+  "Same-Day Service",
+  "Affordable Pricing",
+  "Guaranteed Quality",
+  "24/7 Customer Support",
+  "Genius Same-Day Service",
+  "Transparent Pricing",
+  "Customer Satisfaction",
+];
 
   return (
     <div className="relative z-50 top-0 w-full overflow-hidden bg-white text-black py-3">
