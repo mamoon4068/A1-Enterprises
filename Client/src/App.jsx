@@ -1,4 +1,5 @@
-import { Navigate, Route, Routes } from "react-router-dom"
+import { useLayoutEffect } from "react"
+import { Navigate, Route, Routes, useLocation } from "react-router-dom"
 import UpperAnima from './components/TopAnnounceMent'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -15,6 +16,14 @@ import ContactUs from "./pages/ContactUs"
 
 
 const App = () => {
+  const { key, hash } = useLocation()
+
+  useLayoutEffect(() => {
+    if (!hash) {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+    }
+  }, [key, hash])
+
   return (
     <div>
       <UpperAnima />

@@ -1,9 +1,6 @@
 {
   "rewrites": [
     { "source": "/api/enquiries", "destination": "https://a1-enterprises.onrender.com/api/enquiries" },
-    { "source": "/contact", "destination": "/index.html" },
-    { "source": "/about", "destination": "/index.html" },
-    { "source": "/servicesarea", "destination": "/index.html" },
-    { "source": "/services/:path*", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
