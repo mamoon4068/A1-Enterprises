@@ -56,7 +56,7 @@ const services = [
   "AC Repair & Installation",
   "Refrigerator Repair",
   "Washing Machine Repair",
-  "Dishwasher Repai",
+  "Dishwasher Repair",
   "Chimney Repair",
 ];
 

@@ -53,11 +53,13 @@ import godrejLogoImage from "../assets/godrej-logo-png.png";
 import blueStarLogoImage from "../assets/blue-star-limited-logo.png";
 import voltasLogoImage from "../assets/voltas-logo.jpg";
 import haierLogoImage from "../assets/Haier-Logo.wine.svg";
-import bajajLogoImage from "../assets/bajaj-electricals-logo.jpg";
-import ushaLogoImage from "../assets/USHA_Logo.pdf.jpg";
-import cromptonLogoImage from "../assets/crompton-logo.png";
-import wonderchefLogoImage from "../assets/wonderchef_email_logo.avif";
 import washingMachineHome from "../assets/washing-machine-home.webp";
+import boschLogoImage from "../assets/Bosch-Logo-ac-comapy.png";
+import daikinLogoImage from "../assets/Daikin-AC-company.jpg";
+import lloydLogoImage from "../assets/LLOYD-Logo-New-ac company.png";
+import oGeneralLogoImage from "../assets/O-general-AC-comapy.avif";
+import siemensLogoImage from "../assets/Siemens-Logo.wine-ac-copany.png";
+import panasonicLogoImage from "../assets/panasonic-logo-png-svg.webp";
 // Add testimonials
 import Testimonials from "./Testimonials.jsx";
 import ServiceArea from "./ServiceArea.jsx";
@@ -135,10 +137,12 @@ const companyLogos = [
   { name: "Blue Star", image: blueStarLogoImage },
   { name: "Voltas", image: voltasLogoImage },
   { name: "Haier", image: haierLogoImage },
-  { name: "Bajaj", image: bajajLogoImage },
-  { name: "Usha", image: ushaLogoImage },
-  { name: "Crompton", image: cromptonLogoImage },
-  { name: "Wonderchef", image: wonderchefLogoImage },
+  { name: "Bosch", image: boschLogoImage },
+  { name: "Daikin", image: daikinLogoImage },
+  { name: "Lloyd", image: lloydLogoImage },
+  { name: "O General", image: oGeneralLogoImage },
+  { name: "Siemens", image: siemensLogoImage },
+  { name: "Panasonic", image: panasonicLogoImage },
 ];
 
 // ======================================
