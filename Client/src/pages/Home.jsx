@@ -55,11 +55,11 @@ import voltasLogoImage from "../assets/voltas-logo.jpg";
 import haierLogoImage from "../assets/Haier-Logo.wine.svg";
 import washingMachineHome from "../assets/washing-machine-home.webp";
 import boschLogoImage from "../assets/Bosch-Logo-ac-comapy.png";
-import daikinLogoImage from "../assets/Daikin-AC-company.jpg";
+import daikinLogoImage from "../assets/Daikin-Logo.jpg";
 import lloydLogoImage from "../assets/lloyd-2-logo-company.jpg";
 import oGeneralLogoImage from "../assets/O-general-AC-comapy.avif";
 import siemensLogoImage from "../assets/Siemens-Logo.wine-ac-copany.png";
-import panasonicLogoImage from "../assets/panasonic-logo-png-svg.webp";
+import panasonicLogoImage from "../assets/Panasonic-logo.jpg";
 // Add testimonials
 import Testimonials from "./Testimonials.jsx";
 import ServiceArea from "./ServiceArea.jsx";
