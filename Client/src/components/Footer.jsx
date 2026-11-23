@@ -28,7 +28,7 @@ const business = {
   // Add your actual contact details
   phone: "917718978719",
   email: "a1enterprisesservices03@gmail.com",
-  address: "Pawar Nagar Near Dange Mill Thergaon Chinchwad Pune 411033",
+  address: "Pawar Nagar Near  Dange Chowk Pune 411033",
 
   // Add actual social media profile URLs
   facebook: "",
