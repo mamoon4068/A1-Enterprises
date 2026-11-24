@@ -16,6 +16,7 @@ import {
   Wrench,
 } from "lucide-react";
 import logoA1 from "../assets/A1 Enterprises Appliance Services Logo.png";
+import contactHeroImage from "../assets/Friendly Home Appliance Service Pro.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,9 +24,9 @@ gsap.registerPlugin(ScrollTrigger);
 // The earlier Genius Enterprises phone/address has NOT been
 // confirmed as the A1 Enterprises contact details.
 const CONTACT = {
-  phone: "",    // e.g. "+91XXXXXXXXXX"
-  email: "",    // e.g. "your-business-email@example.com"
-  address: "",  // A1 Enterprises' real office address
+  phone: "+917718978719",    // e.g. "+91XXXXXXXXXX"
+  email: "a1enterprisesservices03@gmail.com",    // e.g. "your-business-email@example.com"
+  address: "Pawar Nagar Near Dange Chowk Pune 411033",  // A1 Enterprises' real office address
 };
 
 const repairingServices = [
@@ -56,28 +57,28 @@ const benefits = [
     title: "Service Reminders & Live Tracking",
     description:
       "Stay informed about appointments, visit updates and the status of your service request.",
-    number: "01",
+    number: " ",
   },
   {
     icon: Headset,
     title: "24/7 Customer Support Available",
     description:
       "Get help with repair enquiries, service information and booking assistance when you need it.",
-    number: "02",
+    number: " ",
   },
   {
     icon: ShieldCheck,
     title: "Respectful Teams That Protect Your Home",
     description:
       "We value careful work, clear communication and respect for your home during a service visit.",
-    number: "03",
+    number: " ",
   },
   {
     icon: BadgeCheck,
     title: "Fully Licensed & Certified Technicians",
     description:
       "Our goal is dependable service, thoughtful inspection and professional appliance care.",
-    number: "04",
+    number: " ",
   },
 ];
 
@@ -268,7 +269,10 @@ export default function ContactUs() {
       {/* ===================================================
           SECTION 1: CONTACT HERO
       =================================================== */}
-      <section className="relative isolate overflow-hidden bg-[#103E4B] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12 lg:py-24">
+      <section
+        className="relative isolate overflow-hidden bg-[#103E4B] bg-cover bg-position-[78%_center] bg-no-repeat px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12 lg:py-24"
+        style={{ backgroundImage: `linear-gradient(rgb(16 62 75 / 78%), rgb(16 62 75 / 78%)), url("${contactHeroImage}")` }}
+      >
         <div className="pointer-events-none absolute -right-20 -top-32 h-80 w-80 rounded-full bg-[#228BA3]/35 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-44 left-0 h-80 w-80 rounded-full bg-[#81DCEC]/10 blur-3xl" />
 

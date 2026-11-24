@@ -33,8 +33,8 @@ const business = {
   // Add actual social media profile URLs
   facebook: "",
   instagram: "",
-  youtube: "",
-  linkedin: "",
+  // youtube: "",
+  linkedin: "https://www.linkedin.com/in/mamoon-khan-2881a1265/",
 };
 
 // =====================================
@@ -75,11 +75,11 @@ const socialLinks = [
     icon: FaInstagram,
     url: business.instagram,
   },
-  {
-    name: "YouTube",
-    icon: FaYoutube,
-    url: business.youtube,
-  },
+  // {
+  //   name: "YouTube",
+  //   icon: FaYoutube,
+  //   url: business.youtube,
+  // },
   {
     name: "LinkedIn",
     icon: FaLinkedinIn,
@@ -407,7 +407,7 @@ Thank you.`
             <p>
               Designed by{" "}
               <span className="font-semibold text-white">
-                Earthix
+                mamoon_dev
               </span>
             </p>
 

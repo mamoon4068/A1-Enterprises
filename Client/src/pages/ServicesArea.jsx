@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import serviceAreaHeroImage from "../assets/A1 Enterprises Neighborhood Service Coverage.png";
 
 import {
   ArrowRight,
@@ -172,22 +173,25 @@ export default function ServiceArea() {
     >
 
       {/* SECTION 1 - HERO */}
-      <section className="bg-[#103E4B] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12">
-        <div className="service-area-hero mx-auto max-w-7xl text-center">
+      <section
+        className="bg-[#103E4B] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12"
+        style={{ backgroundImage: `linear-gradient(rgb(16 62 75 / 78%), rgb(16 62 75 / 78%)), url("${serviceAreaHeroImage}")`, backgroundPosition: "78% center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}
+      >
+        <div className="service-area-hero mx-auto max-w-7xl text-left">
 
           <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-2 text-xs font-semibold tracking-widest text-[#BCECF4]">
             <MapPin size={16} />
             PUNE & PCMC SERVICE LOCATIONS
           </span>
 
-          <h1 className="mx-auto mt-5 max-w-3xl text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
+          <h1 className="mt-5 max-w-3xl text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
             Home Appliance Repair{" "}
             <span className="text-[#81DCEC]">
               Service Areas in Pune
             </span>
           </h1>
 
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white/85 sm:text-base">
+          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/85 sm:text-base">
             A1 Enterprises provides home appliance repair,
             installation and maintenance assistance across
             Pune and Pimpri-Chinchwad. Find your location below.
