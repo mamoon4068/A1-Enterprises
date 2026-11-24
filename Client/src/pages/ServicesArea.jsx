@@ -7,7 +7,6 @@ import serviceAreaHeroImage from "../assets/A1 Enterprises Neighborhood Service 
 
 import {
   ArrowRight,
-  CheckCircle2,
   MapPin,
   MapPinned,
   Navigation,
@@ -353,7 +352,7 @@ export default function ServiceArea() {
           </div>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2 text-center text-sm text-slate-600">
-            <CheckCircle2
+            <PhoneCall
               size={18}
               className="text-[#228BA3]"
             />
