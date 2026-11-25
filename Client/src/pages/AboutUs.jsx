@@ -367,11 +367,15 @@ export default function AboutUs({ phone = "" }) {
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-12">
             {/* Left: gold vertical timeline with 6 circle markers */}
             <div className="relative">
-              <div className="absolute bottom-10 left-1.75 top-2 w-px bg-[#E8AA35]" aria-hidden="true" />
-
               <div className="space-y-9 sm:space-y-11">
-                {reasons.map((reason) => (
+                {reasons.map((reason, index) => (
                   <div key={reason.title} className="why-timeline-item relative pl-8">
+                    {index < reasons.length - 1 && (
+                      <div
+                        className="absolute -bottom-11 left-1.75 top-2 w-px bg-[#E8AA35] sm:-bottom-13"
+                        aria-hidden="true"
+                      />
+                    )}
                     <span
                       className="absolute left-0 top-2 h-4 w-4 rounded-full border-2 border-white bg-[#228BA3]"
                       aria-hidden="true"

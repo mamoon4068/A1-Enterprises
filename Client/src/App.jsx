@@ -13,6 +13,7 @@ import RORepair from "./pages/RoRepaire"
 import ChimneyRepair from "./pages/ChimniRepaire"
 import ServiceArea from "./pages/ServicesArea"
 import ContactUs from "./pages/ContactUs"
+import WhatsAppButton from "./components/WhatsAppButton"
 
 
 const App = () => {
@@ -41,6 +42,7 @@ const App = () => {
         <Route path="/servicesarea" element={<ServiceArea />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
+      <WhatsAppButton />
      <Footer/>
     </div>
   )
