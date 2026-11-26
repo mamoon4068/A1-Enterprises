@@ -32,7 +32,7 @@ const business = {
 
   // Add actual social media profile URLs
   facebook: "",
-  instagram: "",
+  instagram: "https://www.instagram.com/a1enterprisesservices?gwpx=MTdmeGk0OHV6dTM3bw==",
   // youtube: "",
   linkedin: "https://www.linkedin.com/in/mamoon-khan-2881a1265/",
 };
