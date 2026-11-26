@@ -31,7 +31,7 @@ const business = {
   address: "Pawar Nagar Near  Dange Chowk Pune 411033",
 
   // Add actual social media profile URLs
-  facebook: "",
+  facebook: "https://www.facebook.com/share/1DcMijxS4H/",
   instagram: "https://www.instagram.com/a1enterprisesservices?gwpx=MTdmeGk0OHV6dTM3bw==",
   // youtube: "",
   linkedin: "https://www.linkedin.com/in/mamoon-khan-2881a1265/",
