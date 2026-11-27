@@ -270,7 +270,7 @@ export default function ContactUs() {
           SECTION 1: CONTACT HERO
       =================================================== */}
       <section
-        className="relative isolate overflow-hidden bg-[#103E4B] bg-cover bg-position-[78%_center] bg-no-repeat px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12 lg:py-24"
+        className="relative isolate overflow-hidden bg-[#103E4B] bg-cover bg-position-[78%_center] bg-no-repeat px-4 py-11 text-white sm:px-6 sm:py-14 lg:px-12 lg:py-16"
         style={{ backgroundImage: `linear-gradient(rgb(16 62 75 / 78%), rgb(16 62 75 / 78%)), url("${contactHeroImage}")` }}
       >
         <div className="pointer-events-none absolute -right-20 -top-32 h-80 w-80 rounded-full bg-[#228BA3]/35 blur-3xl" />
@@ -312,7 +312,7 @@ export default function ContactUs() {
       {/* ===================================================
           SECTION 2: CONTACT INFO
       =================================================== */}
-      <section className="px-4 py-12 sm:px-6 sm:py-16 lg:px-12">
+      <section className="px-4 py-8 sm:px-6 sm:py-11 lg:px-12">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto mb-9 max-w-3xl text-center">
             {/* Not a button: intentionally no click or hover action */}
@@ -367,7 +367,7 @@ export default function ContactUs() {
       {/* ===================================================
           SECTION 3: STICKY ENQUIRY FORM + FOUR SERVICE CARDS
       =================================================== */}
-      <section id="contact-form" className="scroll-mt-24 px-4 pb-16 sm:px-6 lg:px-12 lg:pb-20">
+      <section id="contact-form" className="scroll-mt-24 px-4 pb-11 sm:px-6 lg:px-12 lg:pb-14">
         <div className="mx-auto grid max-w-7xl items-start gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
           {/* LEFT: FORM STICKS DURING RIGHT COLUMN SCROLL */}
           <div className="lg:sticky lg:top-24 lg:self-start">

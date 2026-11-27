@@ -410,7 +410,7 @@ export default function RORepair() {
         </div>
       </section>
       {/* =============== 2. OVERVIEW =============== */}
-      <section className="px-4 py-14 sm:px-6 sm:py-18 lg:px-12 lg:py-20">
+      <section className="px-4 py-9 sm:px-6 sm:py-12 lg:px-12 lg:py-14">
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
           <div>
             <p className="mb-3 text-xs font-bold uppercase tracking-[3px] text-[#228BA3]">Service Overview</p>
@@ -449,7 +449,7 @@ export default function RORepair() {
       </section>
 
       {/* =============== 3. COMMON PROBLEMS =============== */}
-      <section id="ro-problems" className="scroll-mt-24 bg-white px-4 py-14 sm:px-6 sm:py-18 lg:px-12 lg:py-20">
+      <section id="ro-problems" className="scroll-mt-24 bg-white px-4 py-9 sm:px-6 sm:py-12 lg:px-12 lg:py-14">
         <div className="mx-auto max-w-7xl">
           <header className="mx-auto mb-10 max-w-3xl text-center">
             <p className="mb-3 text-xs font-bold uppercase tracking-[3px] text-[#228BA3]">Common RO Purifier Issues</p>
@@ -479,7 +479,7 @@ export default function RORepair() {
       </section>
 
       {/* =============== 4. PROCESS + BOOKING FORM =============== */}
-      <section id="schedule-repair" className="scroll-mt-24 px-4 py-14 sm:px-6 sm:py-18 lg:px-12 lg:py-20">
+      <section id="schedule-repair" className="scroll-mt-24 px-4 py-9 sm:px-6 sm:py-12 lg:px-12 lg:py-14">
         <div className="mx-auto max-w-7xl">
           <div className="mb-10 max-w-3xl">
             <p className="mb-3 text-xs font-bold uppercase tracking-[3px] text-[#228BA3]">How It Works</p>
@@ -625,7 +625,7 @@ export default function RORepair() {
       </section>
 
       {/* =============== 5. BOTTOM CTA =============== */}
-      <section className="px-4 pb-14 sm:px-6 lg:px-12 lg:pb-20">
+      <section className="px-4 pb-9 sm:px-6 lg:px-12 lg:pb-14">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 rounded-2xl bg-[#103E4B] px-6 py-9 text-white sm:px-10 lg:flex-row lg:items-center">
           <div>
             <h2 className="text-2xl font-extrabold sm:text-3xl">Need RO Water Purifier Repair?</h2>

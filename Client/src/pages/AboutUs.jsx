@@ -278,7 +278,7 @@ export default function AboutUs({ phone = "" }) {
   return (
     <main ref={pageRef} className="overflow-hidden bg-[#F3F8FA] text-[#103E4B]">
       {/* SECTION 1: EXISTING ABOUT INTRO */}
-      <section id="about" className="px-4 py-12 sm:px-6 sm:py-16 lg:px-12">
+      <section id="about" className="px-4 py-8 sm:px-6 sm:py-11 lg:px-12">
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div>
             <p data-about-reveal className="mb-3 text-sm font-semibold uppercase tracking-[2px] text-[#228BA3]">
@@ -352,7 +352,7 @@ export default function AboutUs({ phone = "" }) {
       </section>
 
       {/* SECTION 2: NEW SCREENSHOT-STYLE WHY CHOOSE US TIMELINE */}
-      <section className="bg-[#103E4B] px-4 py-12 text-white sm:px-6 sm:py-16 lg:px-12 lg:py-20">
+      <section className="bg-[#103E4B] px-4 py-8 text-white sm:px-6 sm:py-11 lg:px-12 lg:py-14">
         <div className="mx-auto max-w-7xl">
           <header className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
             <h2 data-about-reveal className="text-3xl font-extrabold leading-tight text-white sm:text-4xl">
@@ -405,7 +405,7 @@ export default function AboutUs({ phone = "" }) {
       </section>
 
       {/* SECTION 3: EXISTING FEATURE CARDS */}
-      <section className="px-4 py-12 sm:px-6 sm:py-16 lg:px-12">
+      <section className="px-4 py-8 sm:px-6 sm:py-11 lg:px-12">
         <div className="mx-auto max-w-7xl">
           <div className="mb-9 text-center">
             <p data-about-reveal className="mb-2 text-xs font-semibold uppercase tracking-[3px] text-[#228BA3]">
@@ -443,7 +443,7 @@ export default function AboutUs({ phone = "" }) {
        <section
             id="our-values"
             ref={sectionRef}
-            className="w-full overflow-hidden bg-white px-4 pb-10 pt-8 text-[#080F1B] sm:px-6 sm:pb-12 sm:pt-10 lg:px-8 lg:pb-14 lg:pt-12"
+            className="w-full overflow-hidden bg-white px-4 pb-7 pt-6 text-[#080F1B] sm:px-6 sm:pb-8 sm:pt-7 lg:px-8 lg:pb-9 lg:pt-8"
           >
             <div className="mx-auto max-w-7xl">
               {/* INTRO */}

@@ -400,7 +400,7 @@ export default function Home() {
           SECTION 1 - HERO SLIDER
       ===================================== */}
 
-      <section className="w-full px-4 py-7 sm:px-6 lg:px-8 lg:py-10">
+      <section className="w-full px-4 py-5 sm:px-6 lg:px-8 lg:py-7">
 
         <div className="mx-auto max-w-7xl">
 
@@ -510,7 +510,7 @@ export default function Home() {
           SECTION 2 - TRUSTED BRANDS
       ===================================== */}
 
-      <section className="w-full overflow-hidden bg-[#F3F8FA] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <section className="w-full overflow-hidden bg-[#F3F8FA] px-4 py-9 sm:px-6 lg:px-8 lg:py-14">
 
         <div className="mx-auto max-w-7xl">
 
@@ -583,7 +583,7 @@ export default function Home() {
 
       <section
         id="about"
-        className="scroll-mt-24 px-4 py-12 sm:px-6 lg:px-8 lg:py-20"
+        className="scroll-mt-24 px-4 py-8 sm:px-6 lg:px-8 lg:py-14"
       >
 
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
@@ -702,7 +702,7 @@ export default function Home() {
           SECTION 4 - WHY CHOOSE US
       ====================================== */}
 
-      <section className="px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <section className="px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
 
         <div className="about-reveal mx-auto max-w-7xl rounded-2xl bg-[#103E4B] px-6 py-10 text-white sm:px-10 lg:px-14 lg:py-14">
 
@@ -762,7 +762,7 @@ export default function Home() {
 
       <section
         id="services"
-        className="scroll-mt-24 px-4 py-6 sm:px-6 lg:px-8 lg:py-8"
+        className="scroll-mt-24 px-4 py-4 sm:px-6 lg:px-8 lg:py-6"
       >
 
         <div className="mx-auto max-w-7xl">
@@ -833,7 +833,7 @@ export default function Home() {
           SECTION 6 - CONTACT CTA
       ====================================== */}
 
-      <section className="px-4 pb-6 sm:px-6 lg:px-8 lg:pb-8">
+      <section className="px-4 pb-4 sm:px-6 lg:px-8 lg:pb-6">
 
         <div className="about-reveal mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 rounded-2xl border border-[#DFE9EC] bg-white p-7 sm:p-10 lg:flex-row lg:items-center">
 

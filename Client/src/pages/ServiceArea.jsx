@@ -117,7 +117,7 @@ function ServiceAreas() {
   return (
     <section
       ref={sectionRef}
-      className="overflow-hidden bg-[#F3F8FB] px-4 py-8 sm:px-6 sm:py-10 lg:px-12"
+      className="overflow-hidden bg-[#F3F8FB] px-4 py-6 sm:px-6 sm:py-7 lg:px-12"
     >
       <div className="mx-auto max-w-7xl">
 

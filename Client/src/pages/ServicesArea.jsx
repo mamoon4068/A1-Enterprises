@@ -173,7 +173,7 @@ export default function ServiceArea() {
 
       {/* SECTION 1 - HERO */}
       <section
-        className="bg-[#103E4B] px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-12"
+        className="bg-[#103E4B] px-4 py-11 text-white sm:px-6 sm:py-14 lg:px-12"
         style={{ backgroundImage: `linear-gradient(rgb(16 62 75 / 78%), rgb(16 62 75 / 78%)), url("${serviceAreaHeroImage}")`, backgroundPosition: "78% center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}
       >
         <div className="service-area-hero mx-auto max-w-7xl text-left">
@@ -208,7 +208,7 @@ export default function ServiceArea() {
       </section>
 
       {/* SECTION 2 - OFFICE LOCATION */}
-      <section className="px-4 py-12 sm:px-6 sm:py-16 lg:px-12">
+      <section className="px-4 py-8 sm:px-6 sm:py-11 lg:px-12">
         <div className="mx-auto max-w-7xl">
 
           <div className="mb-8 text-center">
@@ -297,7 +297,7 @@ export default function ServiceArea() {
       {/* SECTION 3 - SERVICE LOCATIONS */}
       <section
         id="service-locations"
-        className="scroll-mt-24 bg-white px-4 py-12 sm:px-6 sm:py-16 lg:px-12"
+        className="scroll-mt-24 bg-white px-4 py-8 sm:px-6 sm:py-11 lg:px-12"
       >
         <div className="mx-auto max-w-7xl">
 
@@ -363,7 +363,7 @@ export default function ServiceArea() {
       </section>
 
       {/* SECTION 4 - CONTACT CTA */}
-      <section className="px-4 py-10 sm:px-6 lg:px-12">
+      <section className="px-4 py-7 sm:px-6 lg:px-12">
         <div className="office-reveal mx-auto flex max-w-7xl flex-col items-start justify-between gap-5 rounded-2xl bg-[#103E4B] px-6 py-8 text-white sm:px-10 lg:flex-row lg:items-center">
 
           <div>

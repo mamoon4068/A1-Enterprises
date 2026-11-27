@@ -510,7 +510,7 @@ function Testimonials() {
   return (
     <section
       ref={sectionRef}
-      className="overflow-hidden bg-[#F3F8FB] px-4 py-12 sm:px-6 sm:py-16 lg:px-12"
+      className="overflow-hidden bg-[#F3F8FB] px-4 py-8 sm:px-6 sm:py-11 lg:px-12"
     >
       <div className="mx-auto max-w-7xl">
 
